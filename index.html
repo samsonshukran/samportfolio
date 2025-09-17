@@ -37,39 +37,254 @@
       <section class="languages">
         <h2>Programming Languages</h2>
         <div class="icons">
-          <i class="fab fa-html5" title="HTML5"></i>
-          <i class="fab fa-css3-alt" title="CSS3"></i>
-          <i class="fab fa-js" title="JavaScript"></i>
-          <i class="fab fa-python" title="Python"></i>
-          <i class="fab fa-java" title="Java"></i>
+
+       <div class="language-learned">
+          <div class="html">
+            <i class="fab fa-html5" title="HTML5"></i>
+
+           
+          <!-- Button -->
+<button id="showHtmlSkillsBtn"> HTML Skills</button>
+
+<!-- Skills content -->
+<ul class="skills" id="htmlSkillsList">
+  <li>Semantic HTML (header, nav, section)</li>
+  <li>Forms & validation</li>
+  <li>Responsive design with Flexbox & Grid</li>
+  <li>Embedding video/audio</li>
+  <li>Accessibility with ARIA attributes</li>
+</ul>
+
+          </div>
+
+
+
+          <div class="css"><i class="fab fa-css3-alt" title="CSS3"></i>
+
+            <!--button-->
+            <button id="showCssSkillsBtn"> CSS Skills</button>
+            
+            <!--skills content-->
+            <ul class="skills" id="cssSkillsList">
+               <li>Selectors (class, id, pseudo-classes)</li>
+                    <li>Box model (margin, border, padding)</li>
+                    <li>Flexbox & CSS Grid layouts</li>
+                    <li>Transitions & animations</li>
+                    <li>Responsive design with media queries</li>
+                    <li>Custom properties (CSS variables)</li>
+            </ul>
+
+
+            </div>
+
+          <div class="javascript"><i class="fab fa-js" title="JavaScript"></i>
+
+            <!--button-->
+
+            <button id="showJavascriptSkillsBtn">JavaScript Skills</button>
+
+<!-- Skills content -->
+<ul class="skills" id="javascriptSkillsList">
+  <li>Variables & Data Types (let, const, var)</li>
+  <li>Functions (declaration, expression, arrow)</li>
+  <li>DOM Manipulation (querySelector, events)</li>
+  <li>Loops & Conditionals</li>
+  <li>ES6+ Features (template literals, destructuring)</li>
+  <li>Fetch API & JSON handling</li>
+  <li>Async/Await & Promises</li>
+</ul>
+
+
+            </div>
+
+          <div  class="python"><i class="fab fa-python" title="Python"></i>
+
+
+            <!-- Button -->
+<button id="showPythonSkillsBtn"> Python Skills</button>
+
+<!-- Skills content -->
+<ul class="skills" id="pythonSkillsList">
+  <li>Data Types (list, tuple, dict, set)</li>
+  <li>Functions & Modules</li>
+  <li>Object-Oriented Programming (Classes)</li>
+  <li>File Handling (read/write)</li>
+  <li>Error Handling (try/except)</li>
+  <li>Working with Libraries (pandas, requests)</li>
+  <li>Basic Algorithms & Problem-Solving</li>
+</ul>
+
+          </div>
+
+          <div class="java"><i class="fab fa-java" title="Java"></i>
+
+
+            <!-- Button -->
+<button id="showJavaSkillsBtn">Java Skills</button>
+
+<!-- Skills content -->
+<ul class="skills" id="javaSkillsList">
+  <li>Object-Oriented Programming (OOP)</li>
+  <li>Classes & Objects</li>
+  <li>Inheritance, Polymorphism, Encapsulation</li>
+  <li>Exception Handling (try/catch/finally)</li>
+  <li>Collections Framework (List, Map, Set)</li>
+  <li>Java I/O (File Handling)</li>
+  <li>Multithreading & Concurrency</li>
+</ul>
+
+
+
+        </div>
         </div>
       </section>
 
       <section class="education">
         <h2>🎓 Education</h2>
         <ul>
-          <li><i class="fas fa-graduation-cap"></i> PLP Academy: Software Engineering</li>
-          <li><i class="fas fa-university"></i> Kenyatta University:  BSc in Environmental Health</li>
-          <li><i class="fas fa-school"></i> Chavakali High School: KCSE</li>
-        </ul>
+          <div class="plp"><li><i class="fas fa-graduation-cap"></i> PLP Academy: Software Engineering</li>
+         
+            
+            <button id="showProjectsBtn"> PLP Academy Projects</button>
+
+<!-- Projects List -->
+<ul class="projects" id="projectsList">
+  <li>Portfolio Website (HTML & CSS)</li>
+  <li>HealthWatch Web App (Hackathon Project)</li>
+  <li>Interactive To-Do List (JavaScript)</li>
+  <li>Data Analysis Script (Python + Pandas)</li>
+  <li>Java OOP Mini Project</li>
+  <!-- Add more project links here -->
+</ul>
+</div>
+
+
+
+
+
+
+
+         <div class="ku"> <li><i class="fas fa-university"></i> Kenyatta University:  BSc in Environmental Health</li>
+
+        <!-- Button -->
+<button id="showKuBtn">Show Kenyatta University Info</button>
+
+<!-- Kenyatta University Details -->
+<ul class="university-info" id="kuInfo">
+  <li><strong>University:</strong> Kenyatta University</li>
+  <li><strong>Campus:</strong> Main Campus</li>
+  <li><strong>Course:</strong> BSc Public Health</li>
+  <li><strong>Year:</strong> 3rd Year</li>
+  <li><strong>Key Focus:</strong> Disease Surveillance, Vaccination & Community Health</li>
+</ul>
+
+        </div>
+
+
+         <div class="chavakali"> <li><i class="fas fa-school"></i> Chavakali High School: KCSE</li>
+        
+          <!-- Button -->
+<button id="showSchoolBtn">Show Chavakali High School Info</button>
+
+<!-- Chavakali High School Details -->
+<ul class="school-info" id="schoolInfo">
+  <li><strong>School:</strong> Chavakali High School</li>
+  <li><strong>Level:</strong> Secondary Education</li>
+  <li><strong>Years Attended:</strong> 2019 – 2022</li>
+  <li><strong>KCSE Mean Grade:</strong> B(plain)</li>
+  <li><strong>Highlights:</strong> Science Club Member, Debate Team, Prefect</li>
+</ul>
+        
+        </div>
+      </ul>
       </section>
         
         <section class="interests">
   <h2 style="color: blueviolet" >🌟 Interests</h2>
-  <ul>
-    <li><i class="fas fa-heartbeat"></i> Using Technology to Improve Public Health</li>
-    <li><i class="fas fa-code"></i> Web and Software Development</li>
-  </ul>
+ <!-- Button -->
+<button id="showInterestBtn">Show My Interests</button>
+
+<!-- Interest Content -->
+<div class="interest-info" id="interestInfo">
+  <h3>My Interests</h3>
+
+  <div class="interest-item">
+    <span class="icon">🩺</span>
+    <p><strong>Public Health:</strong> Passionate about improving community health through disease 
+    surveillance, vaccination campaigns, and health education.</p>
+  </div>
+
+  <div class="interest-item">
+    <span class="icon">💻</span>
+    <p><strong>Software Development:</strong> I build digital tools and web apps to solve 
+    real-world health problems, exploring health-tech innovations.</p>
+  </div>
+
+  <p class="goal">🎯 Goal: Bridging public health & technology for a healthier world.</p>
+</div>
+
+
+
+<!-- Software Development Card Only -->
+<div class="sticker">
+  <span class="icon">💻</span>
+  <h4>Software Development</h4>
+  <p>Building modern digital solutions using:</p>
+  <p>✔ HTML, CSS, JavaScript (Web Apps)<br>
+     ✔ Python for data analysis & automation<br>
+     ✔ GitHub for collaboration</p>
+  <div class="highlight">Key Focus: Health-Tech Innovation</div>
+</div>
+
+
+
 </section>
 
 
-      <section class="projects">
+      <section class="myprojects">
         <h2>🛠️ Projects</h2>
-        <ul>
-          <li style="color: firebrick"><i class="fas fa-laptop-code"></i> Simple Calculator</li>
-          <li style="color: green"><i class="fas fa-globe"></i> Samson Portfolio  </li>
-         
-        </ul>
+        <div class="slideshow-container">
+  <!-- Project 1 -->
+  <div class="slide active">
+    <span class="icon">🧮</span>
+    <h4>Simple Calculator</h4>
+    <p>A basic calculator built with HTML, CSS, and JavaScript — handles simple arithmetic operations.</p>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="slide">
+    <span class="icon">🌐</span>
+    <h4>SamPortfolio</h4>
+    <p>A personal portfolio website showcasing my skills, education, projects, and contact details.</p>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="slide">
+    <span class="icon">⚕️</span>
+    <h4>Afia App</h4>
+    <p>A health awareness web app with information on common diseases and preventive measures.</p>
+  </div>
+
+  <!-- Project 4 -->
+  <div class="slide">
+    <span class="icon">🏥</span>
+    <h4>Afia Bora App</h4>
+    <p>A ministry of health-themed app covering public health services, health tips, and community outreach.</p>
+  </div>
+
+  <!-- Project 5 -->
+  <div class="slide">
+    <span class="icon">🎨</span>
+    <h4>CSS Animation Project</h4>
+    <p>A fun project demonstrating smooth transitions, hover effects, and interactive animations using CSS3.</p>
+  </div>
+
+  <!-- Navigation Buttons -->
+  <div class="nav-buttons">
+    <button id="prevBtn">⬅ Prev</button>
+    <button id="nextBtn">Next ➡</button>
+  </div>
+</div>
       </section>
 
       <section class="contact">
@@ -84,6 +299,9 @@
 
     </main>
   </div>
+
+  <script src="script.js"></script>
+
 
 </body>
 </html>
